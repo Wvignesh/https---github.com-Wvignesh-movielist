@@ -4,7 +4,7 @@ function MovieCard(props) {
 
   const [like, setLike]=useState(0)
   const [dislike, setDislike]=useState(0)
-  const [toggle, setToggle] =useState(false)
+  const [toggle, setToggle] =useState(true)
 
   return (
 
